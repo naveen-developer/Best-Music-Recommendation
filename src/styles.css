@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --dark-blue: #62abd3;
+  --light-blue: #99c8e2;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 2rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+  margin: 5rem;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--dark-blue);
+  background-color: white;
+  cursor: pointer;
+  margin: 2rem;
+  font-size: large;
+}
+
+.btn-active {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--dark-blue);
+  color: white;
+  cursor: pointer;
+  margin: 2rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: var(--light-blue);
+  text-align: center;
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+footer p {
+  padding-bottom: 15px;
+}
+
+.footer-list {
+  padding-inline-start: 0px;
+}
+
+li {
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #e9f7fe;
+}
+
+#genre-title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.social-media {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.portfolio {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
